@@ -1,0 +1,233 @@
+.contacts
+    background-color: #C8A35F
+    height: 45px
+    padding-top: 14px
+    &_items
+        display: flex
+        justify-content: space-between
+        color: #FFFFFF
+    &_lang
+        font-size: 12px
+    &_phone
+        font-size: 12px
+    &_mail
+        font-size: 12px
+       
+.first_line
+    background-color: #2F343A      
+    height: 100px 
+    padding-top: 27px
+
+.menu
+    &_left
+        display: flex
+        justify-content: space-between
+        height: 46px
+    &_logo
+        margin-right: 28px
+    &_line
+        height: 46px
+        width: 1px 
+        background-color:#F2F2F2
+        margin-right: 30px
+    &_placeholder
+        margin-top: 11px 
+        margin-right: 10px   
+    &_office
+        margin-top: 16px
+        font-size: 14px
+        color: #FFFFFF
+        line-height: 16px
+    &_nav
+        display: flex
+        justify-content: space-between
+        list-style-type: none
+    &_item
+        margin-top: 10px
+    &_link
+        font-size: 14px
+        color: #FFFFFF
+        text-transform: uppercase
+        text-decoration: none
+
+.first_screen
+    min-height: 620px
+    background: url('../img/bg_first.jpg') center (center / cover) no-repeat
+    padding: 155px 0 50px 0
+
+.frame
+    width: 920px
+    height: 245px
+    border: 1px solid #C8A35F
+    margin: 0 auto
+    padding: 40px 72px 45px 71px
+    &_header
+        font-size: 64px
+        line-height: 75px
+        text-align: center
+        text-transform: uppercase
+        color: #FFFFFF
+    &_text
+        margin-top: 25px
+        font-size: 18px
+        line-height: 28px
+        text-align: center
+        color: #FFFFFF
+        line-height: 28px
+.mouse
+    height: 30px
+    width: 30px
+    margin: 0 auto
+    margin-top: 140px
+
+.cta
+    min-height: 561px
+    background-color: #393F47
+    padding: 120px 0 120px 0
+    z-index: -2
+    position: relative
+    &_line
+        width: 90px
+        height: 6px
+        background: #C8A35F
+    &_header
+        position: relative
+        font-size: 40px
+        text-transform: uppercase
+        color: #FFFFFF
+        margin-top: 40px
+        z-index: 2
+    &_text
+        position: relative
+        font-size: 18px
+        color: #FFFFFF
+        margin-top: 20px  
+        z-index: 2
+    &_more
+        width: 220px
+        height: 55px
+        background: #C8A35F
+        margin-top: 45px
+        font-size: 16px
+        line-height: 25px
+        text-align: center
+        letter-spacing: 0.1em
+        text-transform: uppercase
+        color: #FFFFFF
+        border: none
+    &_truck
+        position: relative
+        margin-top: 46px
+        z-index: 5
+    &_next
+        display: flex
+        justify-content: flex-end
+        margin-top: 36px
+        font-size: 16px
+        line-height: 25px
+        text-align: center
+        text-transform: uppercase
+        color: #C8A35F
+    &_back
+        display: flex
+        justify-content: flex-end
+        margin-top: 235px
+        font-size: 16px
+        line-height: 25px
+        text-align: center
+        text-transform: uppercase
+        color: #C8A35F
+    &_right
+        margin-left: 30px
+    &_left
+        margin-right: 30px
+
+.box
+    width: 410px
+    height: 561px
+    background-color: #2F343A  
+    position: absolute
+    top: 0
+    left: 50%
+    transform: translate(-50%)
+    z-index: -1   
+
+.services
+    min-height: 744px
+    background-color: #2F343A
+    padding: 120px 0 120px 0 
+    &_line
+        width: 90px
+        height: 6px
+        background: #C8A35F
+    &_header
+        font-size: 40px
+        text-transform: uppercase
+        color: #FFFFFF
+        margin-top: 40px
+        margin-bottom: 60px
+    &_box
+        display: flex
+        flex-wrap: wrap
+        justify-content: center
+    &_block
+        position: relative
+        width: 276px
+        height: 180px
+        background-color: #393F47
+        margin-top: 1px
+        margin-right: 1px
+        cursor: pointer
+        transition: 0.5s all
+        &:hover
+            background-color: #C8A35F
+        &:before
+            content: ''
+            display: block
+            width: 70px
+            height: 70px
+            border-radius: 70px
+            position: absolute
+            top: 35px
+            left: 103px
+            transition: 0.5s all
+        &:hover
+            &:before
+                top: 35px
+                left: 103px
+                width: 70px
+                height: 70px  
+                background-color: #fff  
+                border-radius: 70px      
+        &:after
+            content: url(../img/plane_black.png)
+            opacity: 0
+            display: block
+            position: absolute
+            top: 55px
+            left: 123px
+            transition: 0.5s all
+        &:hover
+            &:after
+                content: url(../img/plane_black.png)
+                opacity: 1
+                display: block
+                position: absolute
+                top: 55px
+                left: 123px
+            
+
+    
+    &_plane
+        width: 30px
+        height: 30px
+        margin-top: 55px
+        margin-left: 123px
+    &_title
+        font-size: 18px
+        text-align: center
+        text-transform: uppercase
+        color: #FFFFFF
+        margin-top: 43px
+
+
